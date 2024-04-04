@@ -1,14 +1,16 @@
 import express from 'express';
 import cors from 'cors'
 import pg from 'pg'
+import { DB_DATABASE, DB_HOST, DB_PASSWORD, DB_PORT, DB_USER, FRONT_URL, PORT } from './config.js';
 
 
 const app = express();
 const pool = new pg.Pool({
-    database: 'postgres',
-    user: 'postgres',
-    password: '1234qwer',
-    port: 5432
+    host: DB_HOST,
+    database: DB_DATABASE,
+    user: DB_USER,
+    password: DB_PASSWORD,
+    port: DB_PORT
 })
 
 app.get("/users", async (req, res)=>{
@@ -22,9 +24,9 @@ app.get("/users", async (req, res)=>{
 });
 
 app.use(cors({
-    origin: 'http://localhost:3001'
+    origin: FRONT_URL
 }))
 
-app.listen(3000,()=>{
+app.listen(PORT,()=>{
     console.log("server started on port 3000")
 })
