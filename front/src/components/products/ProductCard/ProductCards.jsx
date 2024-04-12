@@ -11,7 +11,10 @@ const ProductCards = ({ productos }) => {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    margin-top: 1rem;
+    margin-right: 10%;
+    min-height: 700px;
+
   `;
 
   const handleSort = (order) => {

@@ -1,21 +1,19 @@
 .nav {
     
-
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 3px solid rgba(0, 0, 0, 0.667);
-    border-radius: 5px;
-    background: rgb(255, 255, 255);
+    border: 1.5px solid rgba(0, 0, 0, 0.667);
+    background: rgb(15, 5, 220);
 background: linear-gradient(351deg, rgba(253, 253, 253, 0.762) 6%, rgba(228, 228, 228, 0.651) 42%, rgb(209, 209, 209) 98%);
-    box-shadow:  1px 1px 4px #707070,
-             -1px -1px 3px #2a2a2a;
-    margin-bottom: 23px;
+    box-shadow:  1px 1px 4px #240be4,
+             -1px -1px 3px #0909e7;
+    margin-bottom: 20px;
+    margin-top: 20px;
     width: 100%;
-    height: 3.8rem;
-    color: #f00a0aff;
-    text-shadow:  1px 1px 1px #dfdfdf9f,
-    -1px -1px 1px #ffffff94;
+    height: 2.5rem;
+    text-shadow:  1px 1px 1px #7c76f363,
+    -1px -1px 1px #c9cce259;
     
     
 }
@@ -35,8 +33,7 @@ h4{
 
 .navlink {
     color: #020202;
-    letter-spacing: 2px;
+    letter-spacing: .1062rem;
     text-decoration: none;
-    letter-spacing: 2px;
     font-size: 19px;
 }

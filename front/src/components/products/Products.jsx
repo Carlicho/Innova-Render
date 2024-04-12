@@ -11,15 +11,30 @@ import ProductContainer from './ProductContainer'
 
 
 const Products = ({productos}) => {
+
   const ContainerFilterCat = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-top: 4rem;
+  
+
   
   `
   const GeneralContainerProd = styled.div`
+  
   display: flex;
-  justify-content: space-around;
-  margin: 0 5% 0 5%;
+      justify-content: center;
+  margin: 0 5rem 0 5rem;
+  @media screen and (max-width:1200px ){
+        align-items: center;
+        flex-direction: column;
+      max-width: 900px;
+      align-items: center;
+      justify-content: center;
+    }
+  
 
   
   `

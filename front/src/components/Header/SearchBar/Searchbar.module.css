@@ -2,21 +2,24 @@
     display: flex;
     position: relative;
     justify-content: center;
+    align-items: center;
     width: 31.25rem;
-    height: 3.9375rem;
+    height: 2.2375rem;
+    margin-top: 0.5rem;
     
 }
 
 .searchInput{
     border: black 3px solid;
     width: 31.25rem;
-    height: 3.9375rem;
+    height: 2.2375rem;
     padding: 0 16px;
     border-radius: 2px;
 }
 
 .inputbtn{
     width: 6rem;
+    height: 2.2375rem;
     font-size: 1rem;
     letter-spacing: 0.7px;
     background-color: rgb(222, 222, 222);

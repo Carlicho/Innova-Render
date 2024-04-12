@@ -8,6 +8,7 @@ const NavBar = () => {
     
     <nav className={styles.nav}>
         
+        
 
        
         <Link to="/productos"  className={styles.navlink }        > <h4>Products</h4> </Link>

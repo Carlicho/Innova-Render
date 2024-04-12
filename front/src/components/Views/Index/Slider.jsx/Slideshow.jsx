@@ -111,13 +111,18 @@ const ContenedorSlideshow = styled.div`
 const Slide = styled.div`
     min-width: 100%;
     overflow: hidden;
-    transition: .3s ease all;
+    transition: .10s ease all;
     z-index: 10;
     max-height:900px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     img {
-        width: 100%;
+        align-items: center;
+        margin-left: 5.25rem;
+        width: 80%;
         vertical-align: top;
     }
 `

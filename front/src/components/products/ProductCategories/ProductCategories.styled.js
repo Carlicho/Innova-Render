@@ -3,9 +3,16 @@ import styled from "styled-components";
 export const container = styled.div`
     width: 100%;
     height: 100vh;
+    margin-left: 10%;
+    font-size: 2rem;
+    
+    
 `
  export const Dropdown = styled.div`
-    width: 400px;
+    width: 25rem;
+    @media screen and (max-width:1200px ){
+        width: 10rem;
+    }  
 `
 
 export const DropdownBtn = styled(Dropdown)`
@@ -23,7 +30,7 @@ export const DropdownContent = styled.ul`
 `
 
 export const DropdownItem = styled.li`
-    font-size: 1rem;
+    font-size: 2rem;
     padding-left: 6%;
     padding-bottom: 1%;
     list-style: none;

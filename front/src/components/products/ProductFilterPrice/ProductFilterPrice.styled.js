@@ -3,9 +3,13 @@ import styled from "styled-components";
 export const container = styled.div`
     width: 100%;
     height: 100vh;
+    
 `
  export const Dropdown = styled.div`
     width: 400px;
+    @media screen and (max-width:1200px ){
+        width: 10rem;
+    }  
 `
 
 export const DropdownBtn = styled(Dropdown)`
@@ -20,11 +24,11 @@ export const DropdownContent = styled.div`
 `
 export const DropdownItem = styled.div`
     font-size: 1rem;
-    padding-left: 6%;
+    padding-left: 1%;
     padding-top: 1%;
 `
 export const TextCategories = styled.div`
-    padding-left: 4%;
+    padding-left: 1%;
 `
 export const ContainerInputs= styled.div`
     display: flex;
@@ -34,5 +38,5 @@ export const ContainerInputs= styled.div`
 `
 export const Inputs = styled.input`
     /* width: 20%; */
-    padding-left: 5%;
+    padding-left: 2%;
 `

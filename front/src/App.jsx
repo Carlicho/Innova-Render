@@ -16,7 +16,7 @@ import Monitores from './components/products/ProductCategories/Monitores/Monitor
 import SearchResults from './components/Header/SearchBar/SearchResults'
 import SearchResultsList from './components/Header/SearchBar/SearchResultsList'
 import { createContext } from 'react';
-import ReactSwitch from 'react-switch';
+
 export const ThemeContext = createContext(null);
 
 
@@ -133,9 +133,7 @@ const filtrar = (terminoBusqueda) => {
 
   <Header setResults={setResults} filtrar={filtrar}  />
     
-    <div className='switch'>
-    <ReactSwitch onChange={toggleTheme} checked={theme === "dark"}/>
-    </div>
+
   
     <Routes>
       <Route path={PathRoutes.LANDING} element={<Index/>}/>
