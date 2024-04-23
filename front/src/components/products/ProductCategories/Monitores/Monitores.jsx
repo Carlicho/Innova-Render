@@ -10,9 +10,12 @@ const Monitores = ({productos}) => {
         const ContainerFilterCat = styled.div`
         display: flex;
         flex-direction: column;
+        align-items: center;
+        
         `
         const GeneralContainerProd = styled.div`
         display: flex;
+        justify-content: center;
         `
 
 

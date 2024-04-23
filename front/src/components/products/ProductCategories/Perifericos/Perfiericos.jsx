@@ -13,6 +13,7 @@ const Perifericos = ({productos}) => {
         `
         const GeneralContainerProd = styled.div`
         display: flex;
+        justify-content: center;
         `
 
 
